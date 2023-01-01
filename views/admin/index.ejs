@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link
+</head>
+<body class="font-Poppins text-sm"> 
+    <div class="container mx-auto flex items-center justify-center h-screen">
+        <form>
+            <div class="mb-6">
+              <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Nama Produk:</label>
+              <input type="text" id="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Nama Produk">
+            </div>
+            <div class="mb-6">
+              <label for="category" class="block text-gray-700 text-sm font-bold mb-2">Kategori Produk:</label>
+              <select id="category" class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
+                <option>Pilih Kategori</option>
+                <option>Kategori 1</option>
+                <option>Kategori 2</option>
+                <option>Kategori 3</option>
+              </select>
+            </div>
+            <div class="mb-6">
+              <label for="image" class="block text-gray-700 text-sm font-bold mb-2">Gambar Produk:</label>
+              <input type="file" id="image" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            </div>
+            <div class="mb-6">
+              <label for="description" class="block text-gray-700 text-sm font-bold mb-2">Deskripsi Produk:</label>
+              <textarea id="description" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Deskripsi Produk"></textarea>
+            </div>
+            <div class="flex items-center justify-between">
+              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+                Simpan
+              </button>
+            </div>
+          </form>
+          
+    </div>
+</body>
+</html>

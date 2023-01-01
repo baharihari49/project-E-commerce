@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Produk</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    .scrollbar::-webkit-scrollbar{
+        display: none;
+    }
+</style>
+
+<body class="bg-[#EAEAEA] lg:bg-white font-Poppins">
+    
+ <section class="bg-white max-w-[540px] lg:max-w-full relative mx-auto">
+       <!-- Navbar -->
+
+       <div class="bg-[#08418B] lg:px-6">
+        <nav class="container mx-auto pt-2 pb-3 px-2 lg:p-4">
+            <div class="flex justify-between items-center">
+                <h2 class="font-semibold lg:text-2xl text-white leading-none font-Poppins">Tokopaedi</h2>
+                <form class="hidden lg:block w-full mx-10 bg-white rounded-md" action="">
+                    <div class="flex items-center">
+                        <input placeholder="Cari Produk" class="w-full rounded-sm outline-none h-4 p-2 font-Poppins text-sm lg:h-10 leading-none" type="search">
+                        <button class="flex px-2 py-1 items-center bg-[#FFB319] rounded-tr-md rounded-br-md h-full"><iconify-icon class="text-3xl" icon="ic:twotone-search"></iconify-icon></button>
+                    </div>
+                </form>
+                <div class="flex items-center justify-center">
+                    <img class="w-5 h-5 lg:w-8 lg:h-8 rounded-full mr-2 lg:mr-5" src="../../assets/unsplash_erlbQ8a-C5s.png" alt="">
+                    <iconify-icon class="text-2xl lg:text-4xl text-white" icon="mdi:cart"></iconify-icon>
+                </div>
+            </div>
+            <form class="lg:hidden" action="">
+                <input placeholder="Cari Produk" class="w-full mt-2 rounded-sm h-7 p-2 outline-none font-Poppins text-sm" type="search">
+            </form>
+        </nav>
+        </div>
+
+    <!-- Navbar END -->
+
+ <div class="container mx-auto grid lg:grid-cols-12 gap-5 xl:px-14 2xl:px-28 mt-1 lg:mt-5">
+       
+    <!-- Image -->
+
+       <div class="container mx-auto lg:col-span-4">
+            <img src="../../assets/unsplash_164_6wVEHfI.png" alt="">
+        </div>
+
+    <!-- Image End -->
+
+    <!-- Detail Produk -->
+
+    <div class="container mx-auto px-2 bg-white lg:col-span-5">
+        <div class="flex items-center justify-between">
+            <span class="block font-Poppins font-normal text-base lg:text-lg xl:text-xl">Sepatu Nike Merah Pria</span>
+            <button class="leading-none py-2 px-5 bg-[#08418B] text-white font-Poppins rounded-md text-xs lg:hidden">Cart+</button>
+        </div>
+        <span class="block font-semibold font-Poppins text-xl lg:text-xl xl:text-2xl mt-1 lg:mt-2">Rp 129K</span>
+        <div class="grid grid-cols-3 items-center mt-2">
+            <span class="font-Poppins text-xs">1223 Ulasan</span>
+           <div class="flex items-center border-x justify-center"><span>4.5</span> <iconify-icon class="ml-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon></div>
+            <span class="font-Poppins text-xs text-right">2356 Terjual</span>
+        </div>
+
+        <hr class="my-5">
+
+        <!-- Deskrips -->
+
+        <div class="flex items-center justify-between">
+            <h2 class="font-medium text-base lg:text-lg xl:text-xl">Deskripsi</h2>
+            <button class="text-xs text-gray-500">Lihat Semua</button>
+        </div>
+        <div class="mt-2">
+            <p class="text-xs 2xl:text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. </p>
+        </div>
+
+        <hr class="my-5">
+
+        <!-- Deskrips End -->
+
+        <!-- Varian & Size -->
+
+        <h2 class="font-medium text-base lg:text-lg xl:text-xl">Varian & Size </h2>
+        <div class="flex items-center my-4">
+            <span class="leading-none border rounded-md p-2 font-light mr-2 tablet:mr-4 xl:text-base xl:leading-none">38</span>
+            <span class="leading-none border rounded-md p-2 font-light mr-2 tablet:mr-4 xl:text-base xl:leading-none">39</span>
+            <span class="leading-none border rounded-md p-2 font-light mr-2 tablet:mr-4 xl:text-base xl:leading-none">40</span>
+            <span class="leading-none border rounded-md p-2 font-light mr-2 tablet:mr-4 xl:text-base xl:leading-none">41</span>
+            <span class="leading-none border rounded-md p-2 font-light mr-2 tablet:mr-4 xl:text-base xl:leading-none">42</span>
+            <span class="leading-none border rounded-md p-2 font-light mr-2 tablet:mr-4 xl:text-base xl:leading-none">43</span>
+            <span class="leading-none border rounded-md p-2 font-light mr-2 tablet:mr-4 xl:text-base xl:leading-none">44</span>
+        </div>
+
+        <hr class="my-5">
+
+        <!-- Varian & Size End -->
+
+        <!-- Info Toko -->
+
+        <div class="flex items-center justify-between">
+            <div class="flex items-center">
+                <img class="w-[30px] h-[30px] lg:w-[40px] lg:h-[40px] rounded-full"src="../../assets/unsplash_164_6wVEHfI.png" alt="">
+                <p class="text-sm xl:text-base ml-2">Nike Indonesia</p>
+            </div>
+            <button class="text-sm xl:py-4 xl font-Poppins leading-none py-3 px-5 border rounded-md">Ikuti Toko</button>
+        </div>
+
+        <!-- Info Toko End -->
+    </div>
+
+    <!-- Detail Produk End -->
+
+    <!-- Cart Produk -->
+
+    <div class="hidden lg:block p-3 lg:col-span-3">
+        <div class="p-3 rounded-md overflow-hidden shadow-md">
+            
+            <span class="text-base xl:text-lg font-medium block">Atur Jumlah Belanja</span>
+
+            <span class="text-sm xl:text-base font-medium mt-3 block">Size</span>
+
+            <div class="flex items-center my-3 overflow-x-scroll scrollbar" style="-ms-overflow-style: none; scrollbar-width: none;">
+                <span class="leading-none text-xs xl:text-sm border rounded-md p-1 font-light mr-2 block">38</span>
+                <span class="leading-none text-xs xl:text-sm border rounded-md p-1 font-light mr-2 block">39</span>
+                <span class="leading-none text-xs xl:text-sm border rounded-md p-1 font-light mr-2 block">40</span>
+                <span class="leading-none text-xs xl:text-sm border rounded-md p-1 font-light mr-2 block">41</span>
+                <span class="leading-none text-xs xl:text-sm border rounded-md p-1 font-light mr-2 block">42</span>
+                <span class="leading-none text-xs xl:text-sm border rounded-md p-1 font-light mr-2 block">43</span>
+                <span class="leading-none text-xs xl:text-sm border rounded-md p-1 font-light mr-2 block">44</span>
+            </div>
+
+            <hr class="my-3">
+
+           <!-- Jumlah -->
+
+           <span class="text-sm xl:text-base font-medium mt-3 block">Jumlah</span>
+
+           <div class="flex items-center justify-between my-3">
+               <div class="flex items-center border rounded-md p-1 leading-none">
+                   <iconify-icon icon="ic:baseline-minus"></iconify-icon>
+                   <span class="block mx-3 text-sm">1</span>
+                   <iconify-icon icon="material-symbols:add"></iconify-icon>
+               </div>
+               <span class="block text-xs">Stock: 469</span>
+               <!-- <span class="block font-medium text-lg">RP 129K</span> -->
+           </div>
+
+           <!-- Jumlah End -->
+
+            <hr class="my-3">
+
+            <!-- Catatan -->
+
+            <span class="text-sm xl:text-base font-medium mt-3 block">Catatan Khusus</span>
+           <form action="">
+            <textarea name="catatanKhusus" id="" class="w-full h-fit text-xs font-light outline-none mt-2"></textarea>
+            
+            <hr class="my-3">
+
+            <div class="flex items-center justify-between mt-4">
+                <span class="text-sm xl:text-base font-medium inline-block">Subtotal</span>
+                <span class="block font-medium text-base xl:text-lg">RP 129K</span>
+            </div>
+            
+            <div class="grid grid-cols-2 gap-2 my-3">
+                <button class="bg-[#08418B] py-2 text-white leading-none rounded-md text-xs xl:text-sm shadow-md">Beli</button>
+                <button class="border-[#08418B] border text-[#08418B] rounded-md py-2 leading-none text-xs xl:text-sm">Cart+</button>
+            </div>
+           </form> 
+            <!-- Catatan Khusus -->
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Produk End -->
+
+ </div>
+  <!-- Ulasan Produk -->
+
+ <div class="container mx-auto xl:px-14 2xl:px-28 grid lg:grid-cols-12">
+    <div class="col-span-3 p-3 hidden lg:block">
+        <div class="border p-3 rounded-md">
+            <span class="block font-medium text-xl xl:text-2xl">Ulasan</span>
+           <div class="flex items-center my-1">
+            <span class="block text-3xl xl:text-4xl">4.5</span>
+            <iconify-icon class="ml-2 text-3xl xl:text-4xl" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+           </div>
+           <span class="text-xs mt-2 block">1550 Ratting | 2140 Ulasan</span>
+           <span class="text-lg xl:text-xl block font-medium my-4">Filter Ulasan</span>
+           <div class="px-2">
+                <div class="flex items-center justify-between">
+                    <span class="block font-medium text-sm">Media</span>
+                    <iconify-icon class="text-2xl" icon="material-symbols:expand-more-rounded"></iconify-icon>
+                </div>
+                <hr class="my-3">
+                <div class="flex items-center justify-between">
+                    <span class="block font-medium text-sm">Ratting</span>
+                    <iconify-icon class="text-2xl" icon="material-symbols:expand-more-rounded"></iconify-icon>
+                </div>
+                <hr class="my-3">
+                <div class="flex items-center justify-between">
+                    <span class="block font-medium text-sm">Topik & Ulasan</span>
+                    <iconify-icon class="text-2xl" icon="material-symbols:expand-more-rounded"></iconify-icon>
+                </div>
+                <hr class="my-3">
+           </div>
+        </div>
+    </div>
+    <div class="col-span-6">
+        <div class="container mx-auto p-2 bg-white my-2">
+            <div class="flex items-center justify-between">
+                <h2 class="font-medium text-xl">Ulasan</h2>
+                <button class="text-xs text-gray-500">Lihat Semua</button>
+            </div>
+            <div class="flex items-center mt-1 lg:hidden">
+                <span class="text-2xl font-medium">4.5</span>
+                <iconify-icon class="ml-1 text-3xl" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+            </div>
+
+            <span class="block text-xs my-1">Menampilkan 5 dari 2140 Ulasan</span>
+        
+            <div>
+                <div class="flex items-center mt-5">
+                    <img class="w-[40px] h-[40px] rounded-full"src="../../assets/unsplash_164_6wVEHfI.png" alt="">
+                    <div class="ml-2">
+                        <span class="text-sm">Bahari</span>
+                        <div class="flex">
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="ml-12 mt-2">
+                    <p class="text-xs leading-5 font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus</p>
+                </div>
+            </div>
+            
+            <hr class="my-5">
+            <div>
+                <div class="flex items-center mt-5">
+                    <img class="w-[40px] h-[40px] rounded-full"src="../../assets/unsplash_164_6wVEHfI.png" alt="">
+                    <div class="ml-2">
+                        <span class="text-sm">Bahari</span>
+                        <div class="flex">
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="ml-12 mt-2">
+                    <p class="text-xs leading-5 font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus</p>
+                </div>
+            </div>
+        
+            <hr class="my-5">
+            <div>
+                <div class="flex items-center mt-5">
+                    <img class="w-[40px] h-[40px] rounded-full"src="../../assets/unsplash_164_6wVEHfI.png" alt="">
+                    <div class="ml-2">
+                        <span class="text-sm">Bahari</span>
+                        <div class="flex">
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="ml-12 mt-2">
+                    <p class="text-xs leading-5 font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus</p>
+                </div>
+            </div>
+        
+            <hr class="my-5">
+            <div>
+                <div class="flex items-center mt-5">
+                    <img class="w-[40px] h-[40px] rounded-full"src="../../assets/unsplash_164_6wVEHfI.png" alt="">
+                    <div class="ml-2">
+                        <span class="text-sm">Bahari</span>
+                        <div class="flex">
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="ml-12 mt-2">
+                    <p class="text-xs leading-5 font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus</p>
+                </div>
+            </div>
+        
+            <hr class="my-5">
+            <div>
+                <div class="flex items-center mt-5">
+                    <img class="w-[40px] h-[40px] rounded-full"src="../../assets/unsplash_164_6wVEHfI.png" alt="">
+                    <div class="ml-2">
+                        <span class="text-sm">Bahari</span>
+                        <div class="flex">
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                            <iconify-icon class="mr-1" icon="material-symbols:star" style="color: #ffc700;"></iconify-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="ml-12 mt-2">
+                    <p class="text-xs leading-5 font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus</p>
+                </div>
+            </div>
+        
+            <hr class="my-5">
+        
+        </div>
+    </div>
+ </div>
+
+<!-- Ulasan Produk End -->
+
+    <!-- Rekomendasi Produk -->
+
+   <div class="container mx-auto p-2 xl:px-14 2xl:px-28 bg-white">
+    <div class="flex items-center justify-between">
+        <h2 class="font-medium text-base lg:text-xl">Rekomendasi</h2>
+        <button class="text-xs text-gray-500">Lihat Semua</button>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-5 gap-2 mt-3">
+        <div>
+            <img class="aspect-square w-full object-cover" src="../../assets/unsplash_Zx76sbAndc0.png" alt="">
+            <div class="px-1 mt-2">
+                <h3 class="text-sm">Sepatu Hak Tinggi</h3>
+                <h2 class="text-lg font-semibold">Rp 249K</h2>
+            </div>
+        </div>
+        <div>
+            <img class="aspect-square w-full object-cover" src="../../assets/unsplash_83hUihWqdNk.png" alt="">
+            <div class="px-1 mt-2">
+                <h3 class="text-sm">Sepatu Hak Tinggi</h3>
+                <h2 class="text-lg font-semibold">Rp 249K</h2>
+            </div>
+        </div>
+        <div>
+            <img class="aspect-square w-full object-cover" src="../../assets/unsplash_erlbQ8a-C5s.png" alt="">
+            <div class="p-1 my-2">
+                <h3 class="text-sm">Sepatu Hak Tinggi</h3>
+                <h2 class="text-lg font-semibold">Rp 249K</h2>
+            </div>
+        </div>
+        <div>
+            <img class="aspect-square w-full object-cover" src="../../assets/unsplash_Iing2lv2WBw.png" alt="">
+            <div class="px-1 mt-2">
+                <h3 class="text-sm">Sepatu Hak Tinggi</h3>
+                <h2 class="text-lg font-semibold">Rp 249K</h2>
+            </div>
+        </div>
+        <div>
+            <img class="aspect-square w-full object-cover" src="../../assets/unsplash_83hUihWqdNk.png" alt="">
+            <div class="px-1 mt-2">
+                <h3 class="text-sm">Sepatu Hak Tinggi</h3>
+                <h2 class="text-lg font-semibold">Rp 249K</h2>
+            </div>
+        </div>
+    </div>
+   </div>
+
+    <!-- Rekomendasi Produk End -->
+
+   <!-- Footer -->
+   <footer class="bg-[#08418B] py-8 text-white text-sm font-semibold">
+    <div class="container mx-auto flex flex-col lg:flex-row text-center lg:text-left items-center lg:items-start lg:justify-between">
+      <div class="w-full md:w-1/4 py-4 px-4">
+        <h5 class="text-xl font-bold font-Poppins">Tentang Kami</h5>
+        <p class="my-4 font-Poppins font-light text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+        <a href="#" class="text-gray-400 hover:text-gray-200">Baca Selengkapnya</a>
+      </div>
+      <div class="w-full md:w-1/4 py-4">
+        <h5 class="text-xl font-bold font-Poppins">Layanan</h5>
+        <ul class="my-4 font-Poppins text-xs font-light">
+          <li><a href="#" class="text-gray-300 hover:text-gray-200 leading-5">Pembelian</a></li>
+          <li><a href="#" class="text-gray-300 hover:text-gray-200 leading-5">Pengiriman</a></li>
+          <li><a href="#" class="text-gray-300 hover:text-gray-200 leading-5">Pembayaran</a></li>
+          <li><a href="#" class="text-gray-300 hover:text-gray-200 leading-5">Pengembalian</a></li>
+          <li><a href="#" class="text-gray-300 hover:text-gray-200 leading-5">Bantuan</a></li>
+        </ul>
+      </div>
+      <div class="w-full md:w-1/4 py-4">
+        <h5 class="text-xl font-bold font-Poppins">Informasi</h5>
+        <ul class="my-4 font-Poppins text-xs font-light">
+          <li><a href="#" class="text-gray-300 hover:text-gray-200 leading-5">Tentang Kami</a></li>
+          <li><a href="#" class="text-gray-300 hover:text-gray-200 leading-5">Kebijakan Privasi</a></li>
+          <li><a href="#" class="text-gray-300 hover:text-gray-200 leading-5">Syarat & ketentuan</a></li>
+          <li><a href="#" class="text-gray-300 hover:text-gray-200 leading-5">Karir</a></li>
+        </ul>
+      </div>
+      <div class="w-full md:w-1/4 py-4">
+        <h5 class="text-xl font-bold font-Poppins">Kontak</h5>
+        <ul class="my-4 font-Poppins text-xs font-light">
+          <li><a href="#" class="text-gray-300 hover:text-gray-200 leading-5">Email: info@domain.com</a></li>
+          <li><a href="#" class="text-gray-300 hover:text-gray-200 leading-5">Telepon: (123) 456-7890</a></li>
+          <li><a href="#" class="text-gray-300 hover:text-gray-200 leading-5">Alamat: Jl. Lorem Ipsum, Kota Lorem Ipsum</a></li>
+        </ul>
+        <div class="my-4 flex flex-wrap items-center justify-center lg:justify-start">
+          <a href="#" class="inline-block mr-4"><iconify-icon class="text-2xl" icon="mdi:twitter"></iconify-icon></a>
+          <a href="#" class="inline-block mr-4"><iconify-icon class="text-2xl" icon="ic:baseline-facebook"></iconify-icon></a>
+          <a href="#" class="inline-block mr-4"><iconify-icon class="text-2xl" icon="mdi:instagram"></iconify-icon></a>
+          <a href="#" class="inline-block mr-4"><iconify-icon class="text-2xl" icon="mdi:pinterest"></iconify-icon></a>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-slate-400 py-4">
+      <div class="container mx-auto flex flex-wrap items-center justify-between px-3">
+        <p class="text-gray-300 text-xs font-Poppins font-light">Copyright 2021 - E-Commerce. All rights reserved.</p>
+        <ul class="list-none flex items-center font-Poppins font-light">
+          <li><a href="#" class="text-gray-300 hover:text-gray-200 mr-4">FAQ</a></li>
+          <li><a href="#" class="text-gray-300 hover:text-gray-200 mr-4">Dukungan</a></li>
+          <li><a href="#" class="text-gray-300 hover:text-gray-200">Syarat & ketentuan</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+   <!-- Footer End -->
+
+   <!-- CTA -->
+   <div class="container lg:hidden bg-white mx-auto p-2 fixed z-50 bottom-0">
+    <div class="grid grid-cols-12 gap-4 w-full">
+        <div class="col-span-2 border border-gray-600 rounded-md flex items-center justify-center">
+            <iconify-icon class="text-2xl" icon="uil:comment-alt-message" flip="horizontal"></iconify-icon>
+        </div>
+        <div class="col-span-5">
+            <button class="w-full h-full border rounded-md py-2 font-semibold text-sm text-[#08418B] border-[#08418B]">Keranjang</button>
+        </div>
+        <div class="col-span-5">
+            <button class="w-full h-full border border-[#08418B] rounded-md text-sm py-2 text-white bg-[#08418B]">Beli</button>
+        </div>
+    </div>
+   </div>
+   <!-- CTA End -->
+ </section>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+</body>
+</html>

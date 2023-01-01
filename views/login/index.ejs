@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link
+</head>
+<body class="font-Poppins">
+  <div class="container mx-auto flex items-center justify-center h-screen">
+    <form method="POST" action="/login" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+      <% if (errors.length > 0) { %>
+        <ul class="bg-red-50 rounded-md py-4 px-3">
+          <% errors.forEach(e => { %>
+            <li class="font-semibold text-red-600 text-[11px]"><%= e.msg %> </li>
+          <% }) %>
+        </ul>
+        <% } %>
+      <div class="mb-6">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+          Email
+        </label>
+        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none text-sm focus:shadow-outline" value="<%= value.email %>" id="email" type="email" name="email" required placeholder="Masukkan email">
+      </div>
+      <div class="mb-6">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+          Password
+        </label>
+        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none text-sm focus:shadow-outline" id="password" type="password" name="password" required placeholder="Masukkan password">
+      </div>
+      <div class="flex items-center justify-between">
+        <button class="bg-[#08418B] hover:bg-[#153d71] text-white font-bold py-2 px-4 rounded focus:outline-none text-sm focus:shadow-outline" type="submit">
+          masuk
+        </button>
+        <a id="btnSudahPunyaAkun" class="hover:bg-[#153d71] border hover:text-white font-bold py-2 px-4 rounded focus:outline-none text-sm focus:shadow-outline ml-2" href="/daftar">
+          Belum Punya Akun
+      </a>
+      </div>
+    </form>
+  </div>
+  
+</body>
+</html>
